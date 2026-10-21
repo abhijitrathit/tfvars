@@ -2,7 +2,7 @@ location              = "centralindia"
 resource_group_name   = "rg-pg-dev"
 create_resource_group = true
 
-server_name           = "Abhijit-pg-dev-001"
+server_name           = "abhijit-pg-dev-001"
 postgres_version      = "16"
 sku_name              = "B_Standard_B1ms"
 storage_mb            = 32768
