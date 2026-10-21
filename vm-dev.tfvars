@@ -2,11 +2,11 @@ location              = "centralindia"
 resource_group_name   = "rg-vm-dev"
 create_resource_group = true
 
-vm_name_prefix = "myvm-dev"
+vm_name_prefix = "abhijitvm-dev"
 vm_count       = 1
 vm_size        = "Standard_B2s"
 admin_username = "azureuser"
-ssh_public_key = "ssh-rsa AAAA...replace-with-your-public-key"
+ssh_public_key = "Jenkinsvm_key317.pem"
 
 vnet_cidr        = "10.10.0.0/16"
 subnet_cidr      = "10.10.1.0/24"
